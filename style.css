@@ -44,13 +44,30 @@ nav a {
     text-align: center;
 }
 
+#about-me img {
+    height: 200px;
+    width: 200px;
+}
+
 #work {
     flex-direction: column;
     text-align: center;
 }
 
+#work img {
+    flex-wrap: wrap;
+}
+
 #contact-me {
     align-items: center;
+}
+
+#resume {
+    align-items: center;
+}
+
+#resume h2 {
+    text-decoration: none;
 }
 
 img {
