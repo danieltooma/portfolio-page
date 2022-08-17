@@ -15,9 +15,13 @@ header {
 }
 /* phone friendly section */
 section {
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
+}
+
+#article {
+    margin-bottom: 12px;
 }
 
 h1 {
@@ -40,10 +44,20 @@ nav a {
     text-align: center;
 }
 
+#work {
+    flex-direction: column;
+    text-align: center;
+}
+
+#contact-me {
+    align-items: center;
+}
+
 img {
     margin-bottom: 10px;
 }
 
 h2 {
     padding: 40px;
+    text-align: center;
 }
