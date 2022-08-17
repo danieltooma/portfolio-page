@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* organize and color header */
+header {
+    display: flex;
+    color: darkslategray;
+    background-color: honeydew;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+/* decorate and space nav links */
+nav a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
