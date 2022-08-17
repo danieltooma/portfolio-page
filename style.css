@@ -11,6 +11,22 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    flex-direction: column;
+}
+/* phone friendly section */
+section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    flex-wrap: wrap;
+}
+
+nav {
+    display: block;
+    padding: 12px;
 }
 /* decorate and space nav links */
 nav a {
@@ -18,4 +34,16 @@ nav a {
     padding: 8px;
     text-decoration: none;
     font-size: 1.25rem;
+}
+
+#about-me {
+    text-align: center;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+h2 {
+    padding: 40px;
 }
