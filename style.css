@@ -49,6 +49,11 @@ nav a {
     width: 200px;
 }
 
+p {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #work {
     flex-direction: column;
     text-align: center;
