@@ -13,6 +13,11 @@ header {
     padding: 20px;
     flex-direction: column;
 }
+
+header a:hover {
+    background-color: darkslategray;
+    color: honeydew;
+}
 /* phone friendly section */
 section {
     padding: 15px;
